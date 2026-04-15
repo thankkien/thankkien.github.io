@@ -1,0 +1,64 @@
+<!DOCTYPE html><html lang="en" data-astro-cid-sckkx6r4> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="icon" href="/favicon.ico"><meta name="generator" content="Astro v6.1.5"><title>Astro Basics</title><link rel="stylesheet" href="/_astro/cn.CFXPw_bE.css"><script type="module" src="/_astro/page.CDGqskMv.js"></script>
+<script>!(function(w,p,f,c){if(!window.crossOriginIsolated && !navigator.serviceWorker) return;c=w[p]=Object.assign(w[p]||{},{"lib":"/~partytown/","debug":true});c[f]=(c[f]||[])})(window,'partytown','forward');/* Partytown 0.11.2 - MIT QwikDev */
+const t={preserveBehavior:!1},e=e=>{if("string"==typeof e)return[e,t];const[n,r=t]=e;return[n,{...t,...r}]},n=Object.freeze((t=>{const e=new Set;let n=[];do{Object.getOwnPropertyNames(n).forEach((t=>{"function"==typeof n[t]&&e.add(t)}))}while((n=Object.getPrototypeOf(n))!==Object.prototype);return Array.from(e)})());!function(t,r,o,i,a,s,c,l,d,p,u=t,f){function h(){f||(f=1,"/"==(c=(s.lib||"/~partytown/")+(s.debug?"debug/":""))[0]&&(d=r.querySelectorAll('script[type="text/partytown"]'),i!=t?i.dispatchEvent(new CustomEvent("pt1",{detail:t})):(l=setTimeout(v,(null==s?void 0:s.fallbackTimeout)||1e4),r.addEventListener("pt0",w),a?y(1):o.serviceWorker?o.serviceWorker.register(c+(s.swPath||"partytown-sw.js"),{scope:c}).then((function(t){t.active?y():t.installing&&t.installing.addEventListener("statechange",(function(t){"activated"==t.target.state&&y()}))}),console.error):v())))}function y(e){p=r.createElement(e?"script":"iframe"),t._pttab=Date.now(),e||(p.style.display="block",p.style.width="0",p.style.height="0",p.style.border="0",p.style.visibility="hidden",p.setAttribute("aria-hidden",!0)),p.src=c+"partytown-"+(e?"atomics.js?v=0.11.2":"sandbox-sw.html?"+t._pttab),r.querySelector(s.sandboxParent||"body").appendChild(p)}function v(n,o){for(w(),i==t&&(s.forward||[]).map((function(n){const[r]=e(n);delete t[r.split(".")[0]]})),n=0;n<d.length;n++)(o=r.createElement("script")).innerHTML=d[n].innerHTML,o.nonce=s.nonce,r.head.appendChild(o);p&&p.parentNode.removeChild(p)}function w(){clearTimeout(l)}s=t.partytown||{},i==t&&(s.forward||[]).map((function(r){const[o,{preserveBehavior:i}]=e(r);u=t,o.split(".").map((function(e,r,o){var a;u=u[o[r]]=r+1<o.length?u[o[r]]||(a=o[r+1],n.includes(a)?[]:{}):(()=>{let e=null;if(i){const{methodOrProperty:n,thisObject:r}=((t,e)=>{let n=t;for(let t=0;t<e.length-1;t+=1)n=n[e[t]];return{thisObject:n,methodOrProperty:e.length>0?n[e[e.length-1]]:void 0}})(t,o);"function"==typeof n&&(e=(...t)=>n.apply(r,...t))}return function(){let n;return e&&(n=e(arguments)),(t._ptf=t._ptf||[]).push(o,arguments),n}})()}))})),"complete"==r.readyState?h():(t.addEventListener("DOMContentLoaded",h),t.addEventListener("load",h))}(window,document,navigator,top,window.crossOriginIsolated);;(e=>{e.addEventListener("astro:before-swap",e=>{let r=document.body.querySelector("iframe[src*='/~partytown/']");if(r)e.newDocument.body.append(r)})})(document);</script></head> <body data-astro-cid-sckkx6r4>  <article class="mx-auto max-w-2xl px-4 py-12"> <header class="mb-8"> <h1 class="mb-4 text-4xl font-bold text-gray-900 dark:text-white"> What are event loops? How event loops work? </h1> <p class="mb-6 text-lg text-gray-600 dark:text-gray-300"> Explain the event loop in JavaScript. </p> <div class="mb-6 space-y-2 text-sm text-gray-500 dark:text-gray-400"> <div>
+Published on <time datetime="2026-04-14T00:00:00.000Z"> April 14, 2026 </time> </div>  <div> <span class="font-medium text-gray-700 dark:text-gray-300">
+By thankkien </span>  </div> </div> <div class="flex flex-wrap gap-2"> <a href="/tags/javascript" class="rounded-full bg-gray-100 px-3 py-1 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700">
+#javascript </a> </div> </header> <div class="prose max-w-none prose-p:text-gray-700 dark:prose-invert dark:prose-p:text-gray-300 prose-headings:text-gray-900 dark:prose-headings:text-white prose-strong:text-gray-900 dark:prose-strong:text-white prose-a:text-blue-600 dark:prose-a:text-blue-400 hover:prose-a:underline prose-code:text-amber-700 dark:prose-code:text-amber-200 prose-code:bg-amber-50 dark:prose-code:bg-amber-950 prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950 prose-pre:text-gray-100 prose-pre:overflow-x-auto prose-pre:rounded-lg prose-pre:p-4 prose-blockquote:border-l-4 prose-blockquote:border-blue-300 dark:prose-blockquote:border-blue-700 prose-blockquote:bg-blue-50 dark:prose-blockquote:bg-blue-950/20 prose-blockquote:px-4 prose-blockquote:py-2 prose-blockquote:rounded prose-hr:border-gray-300 dark:prose-hr:border-gray-600 prose-img:rounded-lg prose-img:shadow-md prose-table:border-collapse prose-thead:bg-gray-100 dark:prose-thead:bg-gray-800 prose-th:border prose-th:border-gray-300 dark:prose-th:border-gray-600 prose-th:px-4 prose-th:py-2 prose-td:border prose-td:border-gray-300 dark:prose-td:border-gray-600 prose-td:px-4 prose-td:py-2"> <h2 id="001-explain-the-event-loop-in-javascript">#001 Explain the event loop in JavaScript.</h2>
+<h3 id="vietnamese">Vietnamese</h3>
+<h4 id="event-loop"><strong>Event Loop</strong></h4>
+<pre class="astro-code astro-code-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;" tabindex="0" data-language="plaintext"><code><span class="line"><span>Event Loop là cơ chế cho phép xử lý các tác vụ bất đồng bộ trong JavaScript, sử dụng một vòng lặp vô tận để kiểm tra và quản lý các tác vụ. JavaScript có thể xử lý nhiều tác vụ cùng lúc mặc dù JavaScript là single-threaded — tại một thời điểm chỉ thực hiện một tác vụ duy nhất.</span></span></code></pre>
+<h4 id="call-stack"><strong>Call Stack</strong></h4>
+<ul>
+<li>Mỗi khi một hàm được gọi, nó được đưa vào Call Stack và chờ được thực thi. Khi hàm thực thi xong, nó sẽ được đẩy ra khỏi Call Stack.</li>
+<li>Thứ tự: FILO (First In, Last Out) — hàm được gọi trước thì thực thi sau.</li>
+<li>Ví dụ: Call Stack có 2 tác vụ <code>longRunningTask()</code> và <code>importantTask()</code> => dù <code>importantTask()</code> có quan trọng đến đâu thì cũng phải đợi <code>longRunningTask()</code> chạy xong.</li>
+</ul>
+<h4 id="web-apis-node-apis-in-nodejs"><strong>Web APIs (Node APIs in Node.js)</strong></h4>
+<ul>
+<li>Các hàm bất đồng bộ như <code>setTimeout</code>, <code>fetch</code>, DOM events, etc.</li>
+<li>Khi Call Stack gặp một hàm bất đồng bộ, nó được offload ra khỏi stack để Web APIs xử lý.</li>
+</ul>
+<h4 id="queue"><strong>Queue</strong></h4>
+<ul>
+<li>Sau khi các hàm đồng bộ xử lý xong, callback sẽ được đưa vào queue.</li>
+<li><strong>Task Queue (Macrotask Queue):</strong> chứa callback từ các Web APIs như <code>setTimeout</code>, DOM events, etc.</li>
+<li><strong>Microtask Queue:</strong> chứa callback từ các hàm Promise-based như <code>Promise.then</code>, <code>async/await</code>, etc. và có độ ưu tiên cao hơn Task Queue.</li>
+</ul>
+<h4 id="event-loop-xử-lý"><strong>Event Loop (Xử lý)</strong></h4>
+<ul>
+<li>Kiểm tra xem Call Stack có trống hay không.</li>
+<li>Nếu Call Stack trống, kiểm tra Microtask Queue và thực thi tất cả các callback từ đây.</li>
+<li>Khi Microtask Queue đã trống, kiểm tra Task Queue và thực thi một callback tại một thời điểm.</li>
+<li>Quá trình này lặp lại liên tục.</li>
+</ul>
+<hr>
+<h3 id="english">English</h3>
+<h4 id="event-loop-1"><strong>Event Loop</strong></h4>
+<pre class="astro-code astro-code-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;" tabindex="0" data-language="plaintext"><code><span class="line"><span>The event loop is a mechanism that allows JavaScript to handle asynchronous operations. It uses an infinite loop to continuously check and manage tasks. Even though JavaScript is single-threaded — meaning it can execute only one task at a time—it can still handle multiple operations concurrently thanks to the event loop.</span></span></code></pre>
+<h4 id="call-stack-1"><strong>Call Stack</strong></h4>
+<ul>
+<li>Whenever a function is called, it is pushed into the Call Stack and waits to be executed. After execution, it is removed from the Call Stack.</li>
+<li>The execution order follows FILO (First In, Last Out) — the function called first will be executed last.</li>
+<li>For example, if the Call Stack has two tasks: <code>longRunningTask()</code> and <code>importantTask()</code>, even if <code>importantTask()</code> is more critical, it still has to wait until <code>longRunningTask()</code> finishes.</li>
+</ul>
+<h4 id="web-apis-node-apis-in-nodejs-1"><strong>Web APIs (Node APIs in Node.js)</strong></h4>
+<ul>
+<li>Asynchronous functions such as <code>setTimeout</code>, <code>fetch</code>, and DOM events are handled by Web APIs.</li>
+<li>When the Call Stack encounters an asynchronous function, it is offloaded from the stack and handled by these APIs.</li>
+</ul>
+<h4 id="queue-1"><strong>Queue</strong></h4>
+<ul>
+<li>After synchronous tasks are completed, callbacks are placed into queues.</li>
+<li><strong>Task Queue (Macrotask Queue):</strong> contains callbacks from Web APIs like <code>setTimeout</code>, DOM events, etc.</li>
+<li><strong>Microtask Queue:</strong> contains callbacks from Promise-based operations such as <code>Promise.then</code>, <code>async/await</code>, etc. and has higher priority than the Task Queue.</li>
+</ul>
+<h4 id="event-loop-process"><strong>Event Loop (Process)</strong></h4>
+<ul>
+<li>The event loop continuously checks whether the Call Stack is empty.</li>
+<li>If the Call Stack is empty, it first checks the Microtask Queue and executes all callbacks from it.</li>
+<li>Once the Microtask Queue is empty, it checks the Task Queue and executes one callback at a time.</li>
+<li>This process repeats continuously.</li>
+</ul>
+<hr> </div> <footer class="mt-12 border-t border-gray-200 pt-6 dark:border-gray-700"> <a href="/blog" class="text-sm text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300">
+← Back to blog
+</a> </footer> </article> </body></html>
